@@ -278,7 +278,7 @@ img {
   margin: 0 auto;
 }
 
-.page--single .page-nav {
+.page--single .contact + .page-nav {
   position: absolute;
   top: var(--gutter);
   left: var(--gutter);
