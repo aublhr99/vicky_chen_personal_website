@@ -273,11 +273,18 @@ img {
 }
 
 .contact {
-  position: relative;
+  width: 100%;
+  max-width: var(--content-max);
+  margin: 0 auto;
 }
 
-.contact .page-nav {
+.page--single .page-nav {
   position: absolute;
   top: var(--gutter);
   left: var(--gutter);
+}
+
+.email {
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
 }
