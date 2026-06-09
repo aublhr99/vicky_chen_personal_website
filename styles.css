@@ -272,16 +272,21 @@ img {
   padding-top: 0.25rem;
 }
 
+.hero-copy .page-nav {
+  /* Contact button on home page - flows naturally at bottom of hero */
+}
+
+.page--single > .page-nav {
+  /* Home button on contact page - positioned at top left */
+  position: absolute;
+  top: var(--gutter);
+  left: var(--gutter);
+}
+
 .contact {
   width: 100%;
   max-width: var(--content-max);
   margin: 0 auto;
-}
-
-.page--single .contact + .page-nav {
-  position: absolute;
-  top: var(--gutter);
-  left: var(--gutter);
 }
 
 .email {
