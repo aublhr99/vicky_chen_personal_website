@@ -267,6 +267,11 @@ img {
   position: relative;
 }
 
+.page-nav {
+  margin: 0;
+  padding-top: 0.25rem;
+}
+
 .contact {
   position: relative;
 }
