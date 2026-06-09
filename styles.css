@@ -259,3 +259,16 @@ img {
     min-height: auto;
   }
 }
+
+.page--single {
+  gap: 0;
+  min-height: 100vh;
+  justify-content: center;
+  position: relative;
+}
+
+.page--single .page-nav {
+  position: absolute;
+  top: var(--gutter);
+  left: var(--gutter);
+}
